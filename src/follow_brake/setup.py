@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'pid_node=follow_brake.wall_following_node:main',
+            'e_brake=follow_brake.brake:main',
         ],
     },
 )
